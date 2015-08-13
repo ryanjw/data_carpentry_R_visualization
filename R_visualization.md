@@ -106,7 +106,7 @@ This dataset displays SNPs among multiple E.coli strains.  We are interested in 
 
 ```
 
-dataset<-read.table("https://github.com/datacarpentry/R-genomics/raw/master/Ecoli_genomes_with_SNPs_per_locus_tag.txt",header=T,sep="\t")
+dataset<-read.table("https://github.com/ryanjw/data_carpentry_R_visualization/raw/master/Ecoli_genomes_with_SNPs_per_locus_tag.txt",header=T,sep="\t")
 
 ```
 We can then convert the data to long form
